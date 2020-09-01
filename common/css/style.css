@@ -1,0 +1,585 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	}
+#synopsis {
+	width: 130px;
+	height: 270px;
+	margin-left: 17px;
+	margin-top: 30px;
+	position: relative;
+}
+#photoMain {
+	width: 597px;
+	height: 349px;
+	float: left;
+}
+.itemText {
+	position: absolute;
+    left: 0;
+    top: 0;
+	width: 129px;
+	height: 260px;
+	display: none;
+    overflow: hidden;
+}
+body{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-family: Meiryo,Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	background-color: #f2f0f0;
+  }
+section,article,aside,hgroup,footer,nav,figure{
+	display:block;
+}
+li {
+	list-style-type: none;
+	float: left;
+}
+#footerTop {
+	width: 960px;
+	height: 111px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+img {
+	display: block;
+}
+a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+header {
+	height: 175px;
+}
+#headerInner {
+	height: 134px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1{
+	width:190px;
+	float:left;
+}
+#headerInnerRight {
+	height: 12px;
+	width: 540px;
+	float: right;
+}
+#headerInnerRightSub {
+	height: 72px;
+	width: 540px;
+	float: right;
+}
+#contens {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#mainPhoto {
+	height: 349px;
+	width: 960px;
+	margin-top: 23px;
+}
+#mainText {
+	height: 349px;
+	width: 163px;
+	float: left;
+	background-color: #FFFFFF;
+}
+#mainTitle {
+	height: 349px;
+	width: 199px;
+	float: left;
+	background-color: #4F5156;
+}
+#mainContent {
+	height: 375px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+}
+#feature {
+	height: 282px;
+	widht: 960;
+	width: 960px;
+	margin-top: 24px;
+}
+#mainNews {
+	height: 635px;
+	width: 725px;
+	float: left;
+	margin-top: 30px;
+}
+#newsPlay {
+	height: 306px;
+	width: 374px;
+	background-color: #FFFFFF;
+	margin-left: 23px;
+	float: left;
+}
+#newsArts {
+	height: 306px;
+	width: 375px;
+	float: left;
+	margin-top: 23px;
+	background-color: #FFFFFF;
+	margin-left: 23px;
+}
+aside {
+	height: 624px;
+	width: 212px;
+	float: right;
+	margin-top: 30px;
+}
+footer {
+	background-color: #F9880F;
+	margin-top: 23px;
+	clear: both;
+	height: 190px;
+}
+#footerInner {
+	height: 190px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footerMenu {
+	height: 138px;
+	width: 103px;
+	color: #FFFFFF;
+	margin-top: 12px;
+	float: left;
+	margin-left: 15px;
+}
+#footerAbout {
+	height: 138px;
+	width: 145px;
+	float: left;
+	color: #FFFFFF;
+	margin-top: 12px;
+	margin-left: 135px;
+}
+#headerInnerRightSub form {
+	margin-top: 13px;
+	float: left;
+}
+#headerTel {
+	float: right;
+	margin-top: 26px;
+}
+#headerTicket   {
+	float: right;
+	margin-top: 16px;
+}
+ #headerInnerRight {
+	width: 540px;
+	height: 62px;
+	float: right;
+}
+header nav ul {
+	height: 41px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header nav ul li {
+	float: left;
+}
+#mainPhoto p {
+	float: left;
+}
+#contentPlay {
+	width: 304px;
+	height: 374px;
+	float: left;
+	background-color: #FFFFFF;
+}
+#wrap02 {
+	width: 304px;
+	height: 374px;
+	float: left;
+	background-color: rgba(255,255,255,1.00);
+	margin-left: 24px;
+}
+#wrap03   {
+	width: 304px;
+	height: 374px;
+	float: right;
+	background-color: rgba(255,255,255,1.00);
+}
+#feature ul p {
+	clear: both;
+	margin-left: 30px;
+	margin-top: 25px;
+	font-weight: normal;
+	line-height: 25px;
+	float: left;
+}
+.footerP {
+	text-shadow: 0px 0px;
+	color: #FFFFFF;
+}
+#logo {
+	margin-top: 44px;
+}
+#headerInnerRightSub form input {
+	margin-right: 43px;
+	margin-top: 7px;
+}
+#headerInnerRightSub form #textbox {
+	width: 200px;
+	margin-right: 10px;
+	height: 20px;
+	float: left;
+	margin-top: 10px;
+}
+#mainText h2 {
+	margin-top: 18px;
+	margin-left: 18px;
+}
+#mainTitle ul li {
+	color: #FAF6F6;
+	font-size: 15px;
+	width: 159px;
+	height: 38px;
+	padding-left: 40px;
+	padding-top: 14px;
+	cursor:pointer;
+}
+#mainTitle ul .active {
+	color:#EF8834;
+}
+#mainText p {
+	margin-top: 35px;
+	margin-right: auto;
+	margin-left: 20px;
+}
+#footerTop01 {
+	float: right;
+}
+#footerTop02 {
+	float: left;
+	clear: both;
+	margin-top: 10px;
+}
+#footerTop03  {
+	float: right;
+	margin-top: 20px;
+}
+#feature01 {
+	float: left;
+	margin-top: 30px;
+	clear: both;
+}
+#feature02 {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#feature03 {
+	float: right;
+	margin-top: 30px;
+}
+#facebook {
+	margin-top: 23px;
+}
+#blog {
+	margin-top: 23px;
+}
+#present {
+	margin-top: 23px;
+}
+#feature_mission {
+	margin-left: 14px;
+}
+#titlemain {
+	margin-top: 12px;
+	margin-left: 17px;
+}
+#goPlay {
+	margin-top: 27px;
+	margin-left: 40px;
+	float: left;
+}
+#playMission {
+	margin-top: 25px;
+	line-height: 25px;
+	float: left;
+	margin-right: auto;
+	margin-left: 25px;
+	letter-spacing: 2px;
+}
+#goMusical {
+	margin-top: 27px;
+	margin-left: 60px;
+	float: left;
+}
+#musicalMission {
+	margin-top: 24px;
+	margin-left: 25px;
+	line-height: 25px;
+	float: left;
+	letter-spacing: 2px;
+}
+#goArts {
+	margin-top: 27px;
+	margin-left: 88px;
+	float: left;
+}
+#artMission {
+	margin-top: 25px;
+	margin-left: 32px;
+	line-height: 25px;
+	float: left;
+	letter-spacing: 2px;
+}
+#copyright {
+	margin-right: 18px;
+	color: #FFFFFF;
+	float: right;
+	clear: both;
+	margin-top: 10px;
+}
+#footerMenu ul li {
+	list-style-image: url(../images/arrow.png);
+	margin-top: 6px;
+	clear: both;
+	float: left;
+}
+#footerAbout ul li {
+	list-style-image: url(../images/arrow.png);
+	margin-top: 6px;
+	clear: both;
+}
+#footerMenu02 {
+	float: left;
+	width: 103px;
+	left: auto;
+	margin-top: 33px;
+	margin-left: 135px;
+}
+#footerMenu02 ul li {
+	color: #FFFFFF;
+	list-style-image: url(../images/arrow.png);
+	margin-top: 6px;
+}
+#topInner {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 111px;
+	margin-top: 37px;
+	clear: both;
+	float: left;
+}
+#newsNew {
+	width: 327px;
+	height: 623px;
+	float: left;
+	background-color: #FFFFFF;
+}
+.news01 img {
+	float: left;
+	margin-top: 6px;
+	margin-left: 13px;
+	margin-bottom: 7px;
+}
+.news01 figcaption  {
+	float: left;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+.news03 img {
+	clear: both;
+	float: left;
+	margin-left: 6px;
+}
+.new01 {
+	width: 327px;
+	height: 92px;
+}
+.arrow {
+	float: right;
+	margin-right: 15px;
+	background-image: url(../../images/arrow_news.png);
+	background-repeat: no-repeat;
+	left: auto;
+	text-indent: 10px;
+	background-position: 2px 9px;
+}
+.play01 {
+	width: 374px;
+	height: 116px;
+}
+.play02 img {
+	float: left;
+	margin-top: 9px;
+	margin-left: 10px;
+}
+.play03 img {
+	clear: both;
+	float: left;
+	margin-top: 5px;
+	margin-left: 7px;
+}
+.play02 figcaption {
+	margin-top: 13px;
+	margin-left: 15px;
+	float: left;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover {
+	text-decoration: underline;
+}
+.arrow:hover{
+	text-decoration: underline;
+}
+.textFooter {
+	color: #FFFFFF;
+}
+#mainMain {
+	width: 597px;
+	height: 349px;
+	float: left;
+	position: relative;
+}
+.rolloverImg:hover img{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+#home {
+	float: left;
+	margin-top: 7px;
+	margin-left: 11px;
+}
+#home1   {
+	float: left;
+	color: #FFFFFF;
+	margin-left: 5px;
+	margin-top: 4px;
+}
+#home2 {
+	clear: right;
+	padding-top: 7px;
+	padding-left: 5px;
+	margin-left: 5px;
+	margin-top: 1px;
+}
+#home3 {
+	color: #FFFFFF;
+	float: left;
+	margin-top: 4px;
+	margin-left: 5px;
+}
+#footerTop #topInner ul {
+}
+
+#ticketFamiry {
+	float: left;
+	margin-left: 23px;
+}
+#ticketFirst {
+	float: left;
+	margin-left: 23px;
+}
+#featureP {
+	float: left;
+	clear: both;
+	margin-top: 24px;
+	margin-left: 30px;
+	line-height: 25px;
+}
+#feature h2 {
+	margin-left: 14px;
+}
+.theatreName {
+	width: 780px;
+	height: 65px;
+	float: left;
+	clear: both;
+}
+#theatreName figure {
+	float: left;
+}
+#featureNavi01 {
+	margin-left: auto;
+	margin-right: auto;
+	height: 41px;
+	background-color: #F98811;
+}
+#ticketTable01 tr td {
+	border-style: none none solid solid;
+}
+#ticketTable02 tr td {
+	border-style: none none solid solid;
+}
+#ticketTable02 tr th {
+	border-style: none none solid solid;
+}
+.featureSection01 {
+	float: left;
+	margin-top: 30px;
+}
+.featureSection02   {
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.featureSection03 {
+	float: right;
+	margin-top: 30px;
+}
+.featureSection04 {
+	float: left;
+	margin-top: 30px;
+}
+.featureSection05 {
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+}
+.featureSection06 {
+	float: right;
+	margin-top: 30px;
+}
+.cf::after{
+	content:".";
+	display:block;
+	clear:both;
+	height: 0;
+	visibility:hidden;
+}
+.slide .item.next {
+	opacity: 0;
+	left: 50px;
+}
+.slide .item {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 597px;
+	height: 349px;
+	overflow: hidden;
+	display: none;
+}
+#ticketconp {
+	clear: both;
+	float: left;
+	margin-top: 60px;
+	margin-left: 30px;
+}
+table {
+	font-size:14px;
+}
